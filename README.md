@@ -221,7 +221,7 @@ t.b.d
 #### Framework & Frenetix
 [Rainer Trauth](mailto:rainer.trauth@tum.de) \
 [Korbinian Moller](mailto:korbinian.moller@tum.de) \
-[Marc kaufeld](mailto:marc.kaufeld@tum.de)  
+[Marc Kaufeld](mailto:marc.kaufeld@tum.de)  
 
 
 </details>
