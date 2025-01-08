@@ -1,0 +1,70 @@
+[tool.poetry]
+name = "frenetix-pedestrian"
+version = "2025.01"
+description = "Frenetix - Pedestrian Aware Motion Planner: "
+license = "LGPL-3.0-or-later"
+authors = [
+    "Rainer Trauth <rainer.trauth@tum.de>",
+    "Marc Kaufeld <marc.kaufeld@tum.de>",
+    "Korbinian Moller <korbinian.moller@tum.de>"
+]
+maintainers = [
+    "Korbinian Moller <korbinian.moller@tum.de>",
+]
+readme = "README.md"
+
+packages = [
+    { include = "frenetix_motion_planner" },
+    { include = "cr_scenario_handler" },
+    { include = "risk_assessment" },
+]
+
+[tool.poetry.dependencies]
+
+python = ">=3.9,<3.13"
+
+# frenetix C++ core algorithm
+frenetix = ">=0.4.0"
+
+# commonroad packages
+commonroad-drivability-checker = "~2024.1"
+commonroad-route-planner = "~2024.2"
+commonroad-io = "2024.1"
+commonroad-vehicle-models = "^3.0.2"
+
+# pedestrian simulator
+pedestrian-simulator = { git = "https://github.com/TUM-AVS/PedestrianSimulator.git" }
+
+# other packages
+wale-net = "~3.0.3"
+matplotlib = "~3.8.1"
+numpy = "^1.24.2"
+torch = "^2.2.1"
+omegaconf = "^2.3.0"
+onnxruntime = "~1.18.1"
+imageio = "^2.31.2"
+psutil = ">=5.9.6"
+rich = "^13.7.1"
+toml = "^0.10.2"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+sphinx = ">=6.2.1"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.2"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.5.1"
+
+[tool.poetry.scripts]
+reactive-planner = "main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

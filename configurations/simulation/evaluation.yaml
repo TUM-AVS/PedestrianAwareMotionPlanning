@@ -1,0 +1,65 @@
+# evalute solution of individual agents
+evaluate_agents: False
+# create collision report in case of collisions
+collision_report: False
+# evaluate runtime of multi-agent simulation
+evaluate_runtime: False
+# evaluate multi-agent simulation results
+evaluate_simulation: False
+# radius to take vehicles into account
+radius: 100
+# threshold value for tet, tit
+tau: 2
+# max laterale deceleration
+a_max_lat: 8
+# available measures for evaluation (Use=True, Ignore=False, only if evaluate_simulation=True)
+criticality_metrics:
+    # Headway
+    hw: False
+    # Time-Headway
+    thw: False
+    # Time to Collision
+    ttc: False
+    # Time Integrated TTC
+    tit: False
+    # Time Exposed TTC
+    tet: False
+    # Distance at closest encounter
+    dce: False
+    # Time to closest encounter
+    ttce: False
+    # Required longitudinal deceleration
+    a_long_req: False
+    # Break Threat Number
+    btn: False
+    # Required lateral acceleration
+    a_lat_req: False
+    # Steer Threat Number
+    stn: False
+    # Encroachment Time
+    et: False
+    # Post Encroachment Time
+    pet: False
+    # minimum acceptable stopping distance
+    msd: False
+    # proportion of stopping distance
+    psd: False
+    # jerk
+    jerk: False
+    # jerk lat
+    jerk_lat: False
+    # jerk long
+    jerk_long: False
+    # acceleration
+    acc: False
+    # acceleration lat
+    a_lat: False
+    # acceleration long
+    a_long: False
+    # velocity
+    v: False
+    # velocity lat
+    v_lat: False
+    # velocity long
+    v_long: False
+

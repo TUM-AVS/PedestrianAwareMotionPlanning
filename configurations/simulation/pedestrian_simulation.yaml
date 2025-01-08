@@ -1,0 +1,29 @@
+#############################################################################
+# PLEASE FIND INFORMATION HERE: https://github.com/TUM-AVS/PedestrianSimulator
+#############################################################################
+
+use_pedestrian_simulator: True # Does not work in every combination, e.g. multiagent
+use_multiprocessing: True # Use multiprocessing for the simulation (offline policy calculation)
+
+##############################################################################
+# Offline Policy Settings
+##############################################################################
+
+max_action_length: 4  # Sets action discretization
+grid_cell_size: 0.5  # Sets state discretization
+max_iterations: 500  # Max iterations of the bellman update
+
+##############################################################################
+# Prediction Settings
+##############################################################################
+
+prediction_horizon: 3.0  # Pedestrian vehicle prediction horizon
+
+scale_factor_length: 1.5 # Scale factor for the length of the pedestrian for the prediction
+scale_factor_width: 1.3  # Scale factor for the width of the pedestrian for the prediction
+
+##############################################################################
+# Debug settings
+##############################################################################
+plot: False
+debug: False

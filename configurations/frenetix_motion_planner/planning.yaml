@@ -1,0 +1,40 @@
+###################################
+#        Planning Settings        #
+###################################
+
+# planner time step (in s)
+dt: 0.1
+# planning time horizon (in s)
+planning_horizon: 3.0
+# velocity threshold (in m/s) for switching to low velocity mode
+low_vel_mode_threshold: 2.0
+
+replanning_frequency: 3 # 3 e.g. means three steps with one trajectory before calculating a new one.
+
+# emergency trajectory mode
+emergency_mode: "stopping"  # "stopping" or "min_risk" if None of both, "min_risk" is activated
+
+# use pedestrian safety assessment
+pedestrian_safety_assessment: True
+risk_threshold: 0.075
+harm_threshold: 0.2
+
+###################################
+#        Sampling Settings        #
+###################################
+
+# minimum time sampling in s (t_max is given by planning horizon)
+t_min: 1.1
+
+# velocity sampling interval
+v_min: 0 # is calculated with current velocity & acc limits
+v_max: 0
+
+# lateral sampling interval
+d_ego_pos: True
+d_min: -2
+d_max: 2
+
+# sampling density minimum and maximum
+sampling_min: 2
+sampling_max: 3
