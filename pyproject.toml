@@ -21,7 +21,7 @@ packages = [
 
 [tool.poetry.dependencies]
 
-python = ">=3.9,<3.13"
+python = ">=3.10,<3.12"
 
 # frenetix C++ core algorithm
 frenetix = ">=0.4.0"
@@ -29,7 +29,7 @@ frenetix = ">=0.4.0"
 # commonroad packages
 commonroad-drivability-checker = "~2024.1"
 commonroad-route-planner = "~2024.2"
-commonroad-io = "2024.1"
+commonroad-io = "2024.1" # will be updated once the pedestrian simulator supports the new version of commonroad-io.
 commonroad-vehicle-models = "^3.0.2"
 
 # pedestrian simulator
@@ -37,7 +37,7 @@ pedestrian-simulator = { git = "https://github.com/TUM-AVS/PedestrianSimulator.g
 
 # other packages
 wale-net = "~3.0.3"
-matplotlib = "~3.8.1"
+matplotlib = "3.8.4" # will be updated once the pedestrian simulator supports the new version of commonroad-io.
 numpy = "^1.24.2"
 torch = "^2.2.1"
 omegaconf = "^2.3.0"

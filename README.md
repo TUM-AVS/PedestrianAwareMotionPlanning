@@ -1,7 +1,7 @@
 <!-- [![DOI](https://zenodo.org/badge/700239470.svg)](https://zenodo.org/records/10078062) -->
 
 [![Linux](https://img.shields.io/badge/os-linux-blue.svg)](https://www.linux.org/)
-[![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/) [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/) [![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
+[![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/) [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/)
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 
 # Frenetix  Pedestrian Aware Motion Planner 
@@ -33,7 +33,7 @@ The Frenetix - Pedestrian Aware Motion Planner is a modular framework that combi
 <summary>Click to expand</summary>
 
 ### Requirements
-The software is developed and tested on recent versions of Linux. We strongly recommend using [Ubuntu 22.04](https://ubuntu.com/download/desktop) or higher. For the Python installation, we suggest the usage of Virtual Environment with Python 3.11, Python 3.10, or Python 3.9. For the development IDE, we suggest [PyCharm](http://www.jetbrains.com/pycharm/).
+The software is developed and tested on recent versions of Linux. We strongly recommend using [Ubuntu 22.04](https://ubuntu.com/download/desktop) or higher. For the Python installation, we suggest the usage of Virtual Environment with Python 3.12, Python 3.11, or Python 3.10. For the development IDE, we suggest [PyCharm](http://www.jetbrains.com/pycharm/).
 
 ### 1. Pre-installation Steps
 Make sure that the following **dependencies** are installed on your system for the C++ implementation:
