@@ -427,11 +427,13 @@ class Planner:
 
         # Check if the maximum obstacle risk exceeds the risk threshold
         if harm_risk['max_obst_risk_all'] > self.config_plan.planning.risk_threshold:
-            print('Risk threshold exceeded')
+            if self.config_plan.planning.safety_assessment_debug:
+                print('Risk threshold exceeded')
             return False
 
         if harm_risk['max_obst_harm_with_cp_all'] > self.config_plan.planning.harm_threshold:
-            print('Harm threshold exceeded')
+            if self.config_plan.planning.safety_assessment_debug:
+                print('Harm threshold exceeded')
             return False
 
         return True
