@@ -207,3 +207,22 @@ t.b.d
 
 </details>
 
+---
+
+# 👥 Code Contributors
+
+<details>
+<summary>Click to expand</summary>
+
+#### Pedestrian Aware Motion Planning
+[Korbinian Moller](mailto:korbinian.moller@tum.de) \
+[Truls Nyberg](mailto:trulsny@kth.se)  
+
+#### Framework & Frenetix
+[Rainer Trauth](mailto:rainer.trauth@tum.de) \
+[Korbinian Moller](mailto:korbinian.moller@tum.de) \
+[Marc kaufeld](mailto:marc.kaufeld@tum.de)  
+
+
+</details>
+
