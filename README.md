@@ -5,7 +5,7 @@
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 
 # Frenetix  Pedestrian Aware Motion Planner 
-Welcome to the Frenetix - Pedestrian Aware Motion Planner!
+### Welcome to the Frenetix - Pedestrian Aware Motion Planner!
 
 <img src="doc/images/Scenario_Overview.png" alt="Overview Image" width="600"/>
 
