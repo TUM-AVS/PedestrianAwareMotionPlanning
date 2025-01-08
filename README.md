@@ -11,6 +11,9 @@ Welcome to the Frenetix - Pedestrian Aware Motion Planner!
 
 This repository builds upon the Frenet trajectory planning algorithm provided by [Frenetix](https://github.com/TUM-AVS/Frenetix/) and extends it with pedestrian-aware motion planning capabilities. It introduces enhancements to integrate pedestrian interactions directly into the planning process, aiming to improve trajectory safety and efficiency in scenarios with vulnerable road users. 
 
+This motion planner can be used in combination with our [Pedestrian Simulator](https://github.com/TUM-AVS/PedestrianSimulator). Check out the repository for more details.
+
+
 
 ---
 
